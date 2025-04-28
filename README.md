@@ -1,2 +1,5 @@
-# Working-with-a-digital-certificate
-An application that uses a digital certificate and encryption
+# WorkingWithADigitalCertificate
+## Description
+The application uses the OpenSSL library and simulates the operation of simple cryptographic algorithms (Rail fence, Myszkowski, Playfair). Users register by entering a username and password, after which a digital certificate and a pair of RSA keys are automatically generated, linked to the user's data. Users log in by entering a certificate, username and password. After logging in, they can select an algorithm, enter text and an encryption key, and the result (cipher) is saved in a text file containing the user's simulation history. Files are protected and the application detects unauthorized changes. Certificates are issued by a CA authority, and the application uses a public key infrastructure.
+## Reference to the detailed description
+Detailed description of the project can be found in the folder "Description".
